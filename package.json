@@ -6,9 +6,6 @@
   "author": "Bruno Corrêa <brunosantos6ft@gmail.com>",
   "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "url": "brinobruno/eslint-config-brinobruno"
-  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
