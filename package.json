@@ -7,6 +7,9 @@
   "main": "index.js",
   "license": "MIT",
   "keywords": ["eslint", "eslint-config", "javascript", "react"],
+  "repository": {
+    "url": "brinobruno/eslint-config-brinobruno"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
