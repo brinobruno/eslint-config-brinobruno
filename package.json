@@ -6,6 +6,7 @@
   "author": "Bruno Corrêa <brunosantos6ft@gmail.com>",
   "main": "index.js",
   "license": "MIT",
+  "keywords": ["eslint", "eslint-config", "javascript", "react"],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
