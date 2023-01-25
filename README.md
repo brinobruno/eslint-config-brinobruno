@@ -6,6 +6,7 @@
 - React plugin;
 - React Hooks plugin;
 - JSX a11y plugin;
+- Node support
 - Prettier;
 
 ## Setup
@@ -15,10 +16,17 @@
 npm i -D eslint @brinobruno/eslint-config
 ```
 
-2. Create a `.eslintrc.json` file extending the config:
+2. For a React application, create a `.eslintrc.json` file extending the config:
 ```
 {
   "extends": "@brinobruno/eslint-config/react"
+}
+```
+
+Or, for a Node application, create the same file with:
+```
+{
+  "extends": "@brinobruno/eslint-config/node"
 }
 ```
 
