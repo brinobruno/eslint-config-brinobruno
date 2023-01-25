@@ -1,6 +1,6 @@
 {
   "name": "@brinobruno/eslint-config",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "private": false,
   "description": "ESLint configuration used by Bruno Corrêa",
   "author": "Bruno Corrêa <brunosantos6ft@gmail.com>",
