@@ -1,44 +1,31 @@
 module.exports = {
   env: {
-    es6: true,
-    node: true
+    es2021: true,
+    node: true,
   },
-  extends: [
-    'airbnb-base',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended'
-  ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
+  extends: ['standard', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: [
-    '@typescript-eslint',
-    'prettier'
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
-    'prettier/prettier': ["error", {
-      'printWidth': 80,
-      'tabWidth': 2,
-      'singleQuote': true,
-      'trailingComma': 'all',
-      'arrowParens': 'always',
-      'semi': false,
-      'endOfLine': 'auto',
-    }],
+    'prettier/prettier': [
+      'error',
+      {
+        printWidth: 80,
+        tabWidth: 2,
+        singleQuote: true,
+        trailingComma: 'all',
+        arrowParens: 'always',
+        semi: false,
+      },
+    ],
   },
   settings: {
-    node: {
-      version: 'detect',
-    },
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-  }
+  },
 }
